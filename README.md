@@ -1,35 +1,36 @@
 # RealEstateConsultancyProject
 A Python-powered real estate agent at your command line.
-🏡 Real Estate Consultancy Project
-📌 Overview
+
+#🏡 Real Estate Consultancy Project
+##📌 Overview
 
 This project is a real estate consultancy system implemented in Python with an object-oriented design.
 It simulates a property consultancy where users, regions, and estates (apartments, houses, and stores) are managed alongside deals (sell/rent).
 The program is command-line based, but can also run in Google Colab for educational/demo purposes.
 
-✨ Features
+##✨ Features
 
-Users: Each user has first_name, last_name, phone_number.
+###Users: Each user has first_name, last_name, phone_number.
 
-Regions: Defines property location.
+###Regions: Defines property location.
 
-Estates: Supports three property types:
+###Estates: Supports three property types:
 
-🏢 Apartment (with elevator, parking, floor)
+####🏢 Apartment (with elevator, parking, floor)
 
-🏠 House (with yard, multiple floors)
+####🏠 House (with yard, multiple floors)
 
-🏬 Store
+####🏬 Store
 
-Deals:
+###Deals:
 
-📈 Sell (price per meter, discount, convertibility)
+####📈 Sell (price per meter, discount, convertibility)
 
-📉 Rent (initial deposit, monthly rent, convertibility, discount)
+####📉 Rent (initial deposit, monthly rent, convertibility, discount)
 
-Advertisements: Combines estates with deal types (e.g., ApartmentSell, HouseRent).
+##Advertisements: Combines estates with deal types (e.g., ApartmentSell, HouseRent).
 
-Manager:
+###Manager:
 
 Search estates (with filters and ranges like area__min, price__max).
 
@@ -45,27 +46,27 @@ s → Show all advertisements.
 
 
 
-📖 Project Explanation
+#📖 Project Explanation
 
 This project defines a real estate consultancy system with the following components:
 
-1. Property Types
+##1. Property Types
 
-🏢 Apartment
+###🏢 Apartment
 
-🏠 Villa/House
+###🏠 Villa/House
 
-🏬 Store
+###🏬 Store
 
-2. Usage Types
+##2. Usage Types
 
-🏦 Commercial
+###🏦 Commercial
 
-🏢 Office
+###🏢 Office
 
-🏠 Residential
+###🏠 Residential
 
-3. Property Attributes
+##3. Property Attributes
 
 Each property includes:
 
@@ -87,7 +88,7 @@ Apartment: Elevator, Parking, Floor number
 
 House: Yard, Number of floors
 
-4. Advertisement Types
+##4. Advertisement Types
 
 For Sale:
 
@@ -107,7 +108,7 @@ Convertibility
 
 Discount
 
-5. System Requirements
+##5. System Requirements
 
 Ability to generate reports from stored data
 
